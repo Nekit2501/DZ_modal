@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+    <nav>
+    <ul>
+    <li>
+        <button class="open-modal" data-modal-open>Modal open</button>
+    </li>
+    </ul>
+    </nav>
+    </header>
+    <div class="back is-hidden" data-modal>
+        <div class="modal">
+        <svg  class="close">
+            <use href="./symbol-defs.svg#icon-close" data-modal-close></use>
+        </svg>
+        <h2 class="h2_modal">Залиште свої дані, ми вам передзвонимо</h2>
+        <form action="">
+            
+            <label for="name1">Ім'я</label>
+            <svg  class="people">
+                <use href="./symbol-defs.svg#icon-people" data-modal-close></use>
+            </svg>
+        <input class="name" type="text" name="name1">
+        <label for="tel1">Телефон</label>
+        <svg  class="phone">
+            <use href="./symbol-defs.svg#icon-phone" data-modal-close></use>
+        </svg>
+        <input class="tel" type="tel" name="tel1">
+        <label for="gmail1">Пошта</label>
+        <svg  class="gmail">
+            <use href="./symbol-defs.svg#icon-email" data-modal-close></use>
+        </svg>
+        <input  class="gmail1" type="email" name="gmail1">
+        <label for="coment1">Коментар</label>
+        <input class="coment" type="text" name="coment1" placeholder="Введіть текст">
+    
+        <input class="checkbox" type="checkbox">
+        <p class="p">Погоджуюся з розсилкою та приймаю</p>
+        <a class="a" href="https://webds.ua/dogovor_oferta.pdf" target="_blank">Умови договору</a>
+        <button class="button">Відправити</button>
+    </form>
+        </div>
+    </div>
+    <script src="./modal.js"></script>
+</body>
+</html>

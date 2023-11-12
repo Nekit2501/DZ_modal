@@ -1,0 +1,238 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+ol,ul
+{
+list-style: none;
+}
+
+a{
+text-decoration: none;
+}
+
+.open-modal
+{
+margin: 120px 120px;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+width: 200px;
+height: 50px;
+flex-shrink: 0;
+}
+
+.back
+{
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.5);
+opacity: 1;
+}
+
+.no-scroll {
+overflow: hidden;
+}
+
+.back.is-hidden {
+opacity: 0;
+pointer-events: none;
+}
+
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 528px;
+    height: 581px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+}
+
+.close
+{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 3%;
+    top: 3%;
+}
+
+.h2_modal
+{
+    width: 448px;
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+margin-bottom: 12px;
+}
+
+.name
+{
+width: 448px;
+height: 40px;
+
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+margin-bottom: 10px;
+padding-left: 35px;
+}
+
+.tel
+{
+width: 448px;
+height: 40px;
+
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+margin-bottom: 10px;
+padding-left: 35px;
+}
+
+.gmail1
+{
+width: 448px;
+height: 40px;
+
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+margin-bottom: 10px;
+padding-left: 35px;
+}
+.coment
+{
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+width: 448px;
+height: 120px;
+flex-shrink: 0;
+text-align: initial;
+padding: 12px 16px;
+padding-bottom: 90px;
+
+}
+
+.coment::placeholder
+{
+position: absolute;
+    top: 12px;
+    left: 16px;
+text-align: start;
+    width: 416px;
+height: 96px;
+
+    color: rgba(117, 117, 117, 0.50);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+
+.checkbox
+{
+    display: inline;
+margin-top: 25px;
+margin-left: 12px;
+fill: #212121;
+width: 16px;
+height: 15px;
+
+}
+
+.p
+{
+position: absolute;
+bottom:117px ;
+left: 73px;
+color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.42px;
+}
+
+.a 
+{
+    position: absolute;
+    bottom:117px ;
+    left: 320px;
+    color: #2196F3;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+}
+
+.button
+{
+margin: 30px 124px 40px 124px;
+width: 200px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+}
+
+.people
+{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 104px;
+    left: 52px;
+
+}
+
+.phone
+{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 172px;
+    left: 52px;
+}
+
+.gmail
+{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 240px;
+    left: 52px;
+}
